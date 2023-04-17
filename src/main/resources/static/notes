@@ -1,0 +1,9 @@
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
+
+
+In which the {label} placeholder refers to a GIT branch, {application} to the client's application name
+and the {profile} to the client's current active application name
